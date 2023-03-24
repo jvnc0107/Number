@@ -1,5 +1,5 @@
-const form = document.getElementById('form');
-form.addEventListener('submit', handleSubmit);
+const form =document.getElementById('form');
+ form.addEventListener('submit', handleSubmit); 
 
 let status = document.getElementById('status');
 let attempt = document.getElementById('attempt');
@@ -47,6 +47,7 @@ function handleSubmit(e){
         status.style.color = '#de4251';
         clear();
     }
+   
 
 
 };
